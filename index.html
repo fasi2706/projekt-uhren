@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Uhren Müller</title>
+  </head>
+  <body>
+    <header class="header__container" id="home">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/logo-dark.png"
+                alt="logo-dark"
+                class="logo-dark"
+              />
+              <img
+                src="assets/logo-white.png"
+                alt="logo-white"
+                class="logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Startseite</a></li>
+          <li><a href="#product">Produkte</a></li>
+          <li><a href="#store">Shop</a></li>
+        </ul>
+      </nav>
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>Neue Uhrenkollektion 2025</h1>
+        <p>
+          Entdecken Sie die perfekte Mischung aus Innovation, Handwerkskunst und
+          Eleganz beim Stöbern in unserer sorgfältig zusammengestellten
+          Kollektion.
+        </p>
+        <h4>€1245</h4>
+        <div class="header__btns">
+          <button class="btn discover">ENTDECKEN</button>
+          <button class="btn">In den Warenkorb</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container feature__container" id="product">
+      <h2 class="section__header">ANGEBOTE</h2>
+      <div class="feature__grid">
+        <div class="feature__card">
+          <span>SALE</span>
+          <img src="assets/feature-1.png" alt="feature" />
+          <h4>ADERTICA</h4>
+          <p>€780</p>
+          <button class="btn">In den Warenkorb</button>
+        </div>
+        <div class="feature__card">
+          <span>SALE</span>
+          <img src="assets/feature-2.png" alt="feature" />
+          <h4>KERAKATCHI</h4>
+          <p>€950</p>
+          <button class="btn">In den Warenkorb</button>
+        </div>
+        <div class="feature__card">
+          <span>SALE</span>
+          <img src="assets/feature-3.png" alt="feature" />
+          <h4>CITIZEN</h4>
+          <p>€678</p>
+          <button class="btn">In den Warenkorb</button>
+        </div>
+      </div>
+    </section>
+
+    <secttion class="story">
+      <div class="section__container story__container">
+        <div class="story__image">
+          <img src="assets/story.png" alt="story" />
+        </div>
+        <div class="story__content">
+          <h2 class="section__header">UNSERE GESCHICHTE</h2>
+          <h4>Inspirierende Uhr des Jahres</h4>
+          <p>
+            Jede Uhr dieser Kollektion verkörpert den Höhepunkt uhrmacherischer
+            Kunst und verbindet topaktuelles Design mit beispielloser
+            Funktionalität.
+          </p>
+          <div class="story__btn">
+            <button class="btn">In den Warenkorb</button>
+          </div>
+        </div>
+      </div>
+    </secttion>
+
+    <section class="section__container arrival__container" id="store">
+      <h2 class="section__header">NEUHEITEN</h2>
+      <div class="arrival__grid">
+        <div class="arrival__card">
+          <span>NEU</span>
+          <img src="assets/arrival-1.png" alt="arrival" />
+          <h4>TERJAN GOLD</h4>
+          <p>€890</p>
+          <button class="btn read__more">MEHR ERFAHREN</button>
+          <button class="btn add__cart">In den Warenkorb</button>
+        </div>
+        <div class="arrival__card">
+          <img src="assets/arrival-2.png" alt="arrival" />
+          <h4>SHEPARD PINK</h4>
+          <p>€589</p>
+          <button class="btn read__more">MEHR ERFAHREN</button>
+          <button class="btn add__cart">In den Warenkorb</button>
+        </div>
+        <div class="arrival__card">
+          <span>NEU</span>
+          <img src="assets/arrival-3.png" alt="arrival" />
+          <h4>TITAN BLACK</h4>
+          <p>€678</p>
+          <button class="btn read__more">MEHR ERFAHREN</button>
+          <button class="btn add__cart">In den Warenkorb</button>
+        </div>
+        <div class="arrival__card">
+          <img src="assets/arrival-4.png" alt="arrival" />
+          <h4>ADERTICA WHITE</h4>
+          <p>€570</p>
+          <button class="btn read__more">MEHR ERFAHREN</button>
+          <button class="btn add__cart">In den Warenkorb</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="client">
+      <div class="section__container client__container">
+        <div class="client__image">
+          <img src="assets/client.jpg" alt="client" />
+        </div>
+        <div class="client__content">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <span><i class="ri-double-quotes-l"></i></span>
+                  <p>
+                    Ich hätte nie mit einer so großen Auswahl an Uhren für jeden
+                    Geschmack und jede Vorliebe gerechnet. Es war eine
+                    Herausforderung, mich für eine einzige zu entscheiden! Der
+                    Service war tadellos und hat mein Einkaufserlebnis zu einem
+                    echten Vergnügen gemacht. Ich komme auf jeden Fall wieder.
+                  </p>
+                  <div class="client__card__details">
+                    <img src="assets/client-1.jpg" alt="client" />
+                    <div>
+                      <h4>Michael Kern</h4>
+                      <h5>Finanzanalyst</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <span><i class="ri-double-quotes-l"></i></span>
+                  <p>
+                    Als begeisterter Uhrensammler habe ich unzählige Websites
+                    durchforstet, aber keine kam an dieses Kaliber heran. Die
+                    Auswahl ist beispiellos und die Liebe zum Detail ist in
+                    jedem Stück spürbar. Der Kundenservice war schnell und
+                    kompetent und sorgte für ein reibungsloses Erlebnis.
+                  </p>
+                  <div class="client__card__details">
+                    <img src="assets/client-2.jpg" alt="client" />
+                    <div>
+                      <h4>Sarah Johnson</h4>
+                      <h5>Marketingleiterin</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <span><i class="ri-double-quotes-l"></i></span>
+                  <p>
+                    Von lässiger Eleganz bis hin zu anspruchsvollem Luxus diese
+                    Website bietet alles. Ich bin seit Jahren treuer Kunde und
+                    ihr herausragender Service und ihre Produkte begeistern mich
+                    immer wieder aufs Neue. Ob für einen besonderen Anlass oder
+                    eine persönliche Freude ich vertraue darauf, dass diese
+                    Website hält, was sie verspricht.
+                  </p>
+                  <div class="client__card__details">
+                    <img src="assets/client-3.jpg" alt="client" />
+                    <div>
+                      <h4>David Lee</h4>
+                      <h5>Self-employed</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="section__container subscribe__container">
+        <div>
+          <h2>Abonnieren Sie unseren Newsletter</h2>
+          <p>
+            Seien Sie der Erste, der von unseren neuesten, exklusiven Angeboten
+            erfährt, und abonnieren Sie unseren Newsletter.
+          </p>
+        </div>
+        <div>
+          <button class="btn">ABONNIEREN</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>Rechtliches</h4>
+          <ul class="footer__links">
+            <li><a href="#">AGB</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="#">Datenschutzerklärung</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Lagerhaus</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Über uns</h4>
+          <ul class="footer__links">
+            <li><a href="#">Support Center</a></li>
+            <li><a href="#">Kundensupport</a></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Copy Right</a></li>
+            <li><a href="#">Beliebte Kampagne</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Produkte</h4>
+          <ul class="footer__links">
+            <li><a href="#">Sportuhren</a></li>
+            <li><a href="#">Kornografische Uhren</a></li>
+            <li><a href="#">Digitale Uhren</a></li>
+            <li><a href="#">Mechanische Uhren</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="#">Produkthilfe</a></li>
+            <li><a href="#">Service & Garantie</a></li>
+            <li><a href="#">Reparaturen</a></li>
+            <li><a href="#">Autorisierter Servicepartner</a></li>
+            <li><a href="#">Kundenbetreuung</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Web Design Webtaab. Alle Rechte vorbehalten.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
